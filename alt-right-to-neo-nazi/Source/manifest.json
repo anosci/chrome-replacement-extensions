@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Alt-Right To Neo-Nazi",
+	"name": "alt-right language fixer",
 	"version": "1.0",
 	"description": "Replaces the text 'alt-right' with 'neo-Nazi'.",
 	"content_scripts":
