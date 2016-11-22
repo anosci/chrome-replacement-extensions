@@ -39,9 +39,9 @@ function handleText(textNode)
 {
   var v = textNode.nodeValue;
 
-  v = v.replace(/\balt(ernat(iv)?e)?.?right\b/g, "rebranded neo-nazi");
-  v = v.replace(/\bAlt(ernat(iv)?e)?.?[Rr]ight\b/g, "Rebranded Neo-Nazi");
-  v = v.replace(/\bALT(ernat(iv)?e)?.?RIGHT\b/g, "REBRANDED NEO-NAZI");
+  v = v.replace(/\balt(ernat(iv)?e)?.?right\b/g, "neo-nazi");
+  v = v.replace(/\bAlt(ernat(iv)?e)?.?[Rr]ight\b/g, "Neo-Nazi");
+  v = v.replace(/\bALT(ernat(iv)?e)?.?RIGHT\b/g, "NEO-NAZI");
 
   textNode.nodeValue = v;
 }
